@@ -170,11 +170,7 @@ public class Musicorganizer
             addTrack(track);
         }
     }
-    public static void main(String[] args) {
-        Musicorganizer mo = new Musicorganizer();
-        mo.listAllTracks();
-        System.out.println(mo.getNumberOfTracks());
-    }
+
 
 }
 
