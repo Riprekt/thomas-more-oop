@@ -171,6 +171,14 @@ public class Musicorganizer
         }
     }
 
+    public Track getTrack(int index)
+    {
+        // Checks if index given is valid.
+        // When true it will return the track at given index
+        // When false it will return null
+        return indexValid(index) ? tracks.get(index) : null;
+    }
+
 
 }
 
