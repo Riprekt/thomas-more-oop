@@ -22,16 +22,33 @@ public class PlayList
 	{
 		this.name = name;
 		organizer = new Musicorganizer();
+		tracks = new ArrayList<>();
+
+		// Checking if given number is bigger than the number of tracks in our organizer
+		// When true it will change the given number to the max amount of tracks
+		if (organizer.getNumberOfTracks() < number) number = organizer.getNumberOfTracks();
 
 		while (tracks.size() < number)
 		{
+			// Getting random track from our organizer
 			Random r = new Random();
 			Track track = organizer.getTrack(r.nextInt(organizer.getNumberOfTracks()));
 
-			if (track != null)
+			// Checking if given track isn't null and is not already part of our new tracklist
+			if (track != null && !tracks.contains(track))
 			{
 				tracks.add(track);
 			}
+		}
+	}
+
+	public void listAllTracks()
+	{
+		System.out.println("De lijst " + name + " bevat volgende songs:");
+
+		for (Track track : tracks)
+		{
+			System.out.println(track.getDetails());
 		}
 	}
 }

@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0fed407-ca4f-4666-8338-f798d266a27e" name="Changes" comment="" />
+    <list default="true" id="8b4e30e8-a91b-4c2f-bf64-28e8bc90b87b" name="Changes" comment="💪 (Inleiding) Werken met Git&#10; - Vraag 2: &#10;    - added PlayList&#10;    - added getTrack to Musicorganizer">
+      <change beforePath="$PROJECT_DIR$/src/PlayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlayList.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +26,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2LboMV1PTDdhIpU2Ewqux0oVQjI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -45,9 +49,23 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Musicorganizer">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="Musicorganizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Musicorganizer" />
+      <module name="musicorganizer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PlayList" />
+      <module name="musicorganizer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="musicorganizer" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -62,6 +80,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.PlayList" />
         <item itemvalue="Application.Musicorganizer" />
         <item itemvalue="Application.TrackReader" />
       </list>
@@ -79,9 +99,53 @@
       <workItem from="1676150452644" duration="646000" />
       <workItem from="1676551398818" duration="836000" />
     </task>
+    <task id="LOCAL-00001" summary="💪 (Inleiding) Musicorganizer">
+      <created>1676647470898</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676647470898</updated>
+    </task>
+    <task id="LOCAL-00002" summary="💪 (Inleiding) Werken met Git&#10; - Vraag 2: &#10;    - added PlayList&#10;    - added getTrack to Musicorganizer">
+      <created>1676647747334</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676647747334</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="musicorganizer" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit&#10; - contains auto generated files by intellij&#10; - added readme" />
+    <MESSAGE value=" (Inleiding) Musicorganizer&#10; - Added Test class" />
+    <MESSAGE value=" (Inleiding) Werken met Git&#10; - Vraag 2: &#10;    - added PlayList&#10;    - added getTrack to Musicorganizer" />
+    <option name="LAST_COMMIT_MESSAGE" value=" (Inleiding) Werken met Git&#10; - Vraag 2: &#10;    - added PlayList&#10;    - added getTrack to Musicorganizer" />
   </component>
 </project>
