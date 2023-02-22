@@ -6,6 +6,7 @@ public class PlayList
 	private String name;
 	private Musicorganizer organizer;
 	private ArrayList<Track> tracks;
+	private MusicPlayer player;
 
 	public static void main(String[] args)
 	{
@@ -16,6 +17,7 @@ public class PlayList
 		this.name = name;
 		organizer = new Musicorganizer();
 		tracks = new ArrayList<>();
+		player = new MusicPlayer();
 	}
 
 	public PlayList(String name, int number)
@@ -23,6 +25,7 @@ public class PlayList
 		this.name = name;
 		organizer = new Musicorganizer();
 		tracks = new ArrayList<>();
+		player = new MusicPlayer();
 
 		// Checking if given number is bigger than the number of tracks in our organizer
 		// When true it will change the given number to the max amount of tracks
@@ -49,6 +52,13 @@ public class PlayList
 		for (Track track : tracks)
 		{
 			System.out.println(track.getDetails());
+		}
+	}
+
+	public void play() {
+		for (Track track : tracks) {
+			System.out.println("Now Playing: " + track.getArtist() + " - " + track.getTitle());
+			player.playComplete(track.getFilename());
 		}
 	}
 }
