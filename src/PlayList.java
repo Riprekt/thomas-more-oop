@@ -55,8 +55,10 @@ public class PlayList
 		}
 	}
 
-	public void play() {
-		for (Track track : tracks) {
+	public void play()
+	{
+		for (Track track : tracks)
+		{
 			System.out.println("Now Playing: " + track.getArtist() + " - " + track.getTitle());
 			player.playComplete(track.getFilename());
 		}
